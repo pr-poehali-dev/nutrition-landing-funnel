@@ -79,18 +79,18 @@ export default function Index() {
 
   return (
     <div className="min-h-screen bg-background">
-      <header className="border-b border-border bg-white sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+      <header className="border-b border-border bg-card/80 backdrop-blur-sm sticky top-0 z-50 shadow-sm">
+        <div className="container mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Icon name="Leaf" className="text-primary" size={32} />
-            <span className="text-2xl font-bold text-primary">NutriLife</span>
+            <Icon name="Leaf" className="text-primary" size={28} />
+            <span className="text-xl sm:text-2xl font-bold text-primary">NutriLife</span>
           </div>
-          <nav className="hidden md:flex gap-8">
+          <nav className="hidden md:flex gap-6 lg:gap-8">
             <a href="#services" className="text-foreground hover:text-primary transition-colors font-medium">Услуги</a>
             <a href="#testimonials" className="text-foreground hover:text-primary transition-colors font-medium">Отзывы</a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors font-medium">Контакты</a>
           </nav>
-          <Button asChild>
+          <Button asChild className="text-sm sm:text-base">
             <a href="#consultation">Записаться</a>
           </Button>
         </div>

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,35 +6,35 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 210 22% 22%;
+    --background: 40 30% 96%;
+    --foreground: 25 35% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 22% 22%;
+    --card-foreground: 25 35% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 22% 22%;
+    --popover-foreground: 25 35% 25%;
 
-    --primary: 211 55% 24%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 30 38% 41%;
+    --primary-foreground: 40 30% 96%;
 
-    --secondary: 45 75% 55%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 35 45% 65%;
+    --secondary-foreground: 25 35% 25%;
 
-    --muted: 210 20% 96%;
-    --muted-foreground: 210 15% 50%;
+    --muted: 40 25% 92%;
+    --muted-foreground: 30 20% 45%;
 
-    --accent: 45 75% 55%;
-    --accent-foreground: 210 22% 22%;
+    --accent: 35 50% 60%;
+    --accent-foreground: 25 35% 25%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 20% 88%;
-    --input: 210 20% 88%;
-    --ring: 211 55% 24%;
+    --border: 35 25% 85%;
+    --input: 35 25% 88%;
+    --ring: 30 38% 41%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -108,6 +108,6 @@
   h4,
   h5,
   h6 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Rubik", sans-serif;
   }
 }
